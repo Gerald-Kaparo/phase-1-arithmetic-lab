@@ -430,3 +430,30 @@ rely on the test failure messages to guide your code.
 * [Order of Operations][pemdas]
 
 [pemdas]: https://en.wikipedia.org/wiki/Order_of_operations
+
+
+
+
+
+
+
+function multiply(num1=2,num2=31){
+    var multiply = num1*num2;
+    console.log(multiply);
+
+}
+
+function multiply(){
+    let num1 = 31;
+    let num2 = 2;
+  
+    return num1*num2
+}
+
+
+
+const multiply = (num1='62', num2='1') => {
+    return num1 * num2;
+  };
+  let resulMultiply = multiply(62, 1);
+  console.log(resulMultiply);
